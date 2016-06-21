@@ -1,5 +1,3 @@
-import keyMirror from 'keyMirror';
-
 const AppConstants = {
     AJAX_START: 'AJAX_START',
     AJAX_END: 'AJAX_END',
