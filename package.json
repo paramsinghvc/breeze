@@ -4,7 +4,7 @@
   "description": "A react redux web app for getting the current weather information for a region",
   "main": "index.js",
   "scripts": {
-    "start": "webpack",
+    "start": "webpack && node ./app.js",
     "dev": "webpack && webpack-dev-server --hot"
   },
   "repository": {
