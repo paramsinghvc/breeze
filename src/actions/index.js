@@ -47,7 +47,7 @@ export const fetchLocation = () => {
                         return $.ajax({
                                 "async": true,
                                 "crossDomain": true,
-                                "url": "http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=tGjzumuASY9ysnQ87brn3gJWTXNRXbGu&q=12.9323018%2C77.60757319999999",
+                                "url": "https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=tGjzumuASY9ysnQ87brn3gJWTXNRXbGu&q=12.9323018%2C77.60757319999999",
                                 "method": "GET"
                             })
                             .done((res) => {
